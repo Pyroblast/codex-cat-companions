@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "spriteVersionNumber": 2,
+  "pets": [
+    {
+      "id": "lili",
+      "displayName": "栗栗",
+      "files": {
+        "pet.json": "0f88dd27437475d5b98782e56a0e9c9cfd7e3d58b57ef6e29f90448a405e0be0",
+        "spritesheet.webp": "02fb5c0b613b8a9eaa9ea86ad1b4ecb3fc12681ff9408a7651426234cc47c8b7"
+      }
+    },
+    {
+      "id": "taitai",
+      "displayName": "苔苔",
+      "files": {
+        "pet.json": "2b0a16774fbd9ccbf8e4926a4fc17e006f5613971bd3a0136f521614a3438a9f",
+        "spritesheet.webp": "a32677abadf6d7f2137f90ac9bbb211231f4b9abe7f76df99c23e8aa02898912"
+      }
+    },
+    {
+      "id": "kaikai",
+      "displayName": "铠铠",
+      "files": {
+        "pet.json": "5152b7c11623f2536077e267d0f5e90fe9645fcab04b732a42755ee8d48316c6",
+        "spritesheet.webp": "e637783509fa4ff401fbab014d4ab32f30bb3070b9f3975f5978f1c202760d90"
+      }
+    },
+    {
+      "id": "juqian",
+      "displayName": "橘钳",
+      "files": {
+        "pet.json": "c3b9dfce7a43e8fe6b38a8f43677d02c09e49ddf256519cba73ae9a3ad8e94f7",
+        "spritesheet.webp": "2678c0c956171596f1c47562146d80d5c731bce070b7478a1cdcd399162af099"
+      }
+    }
+  ]
+}

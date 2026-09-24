@@ -1,0 +1,71 @@
+{
+  "ok": true,
+  "pets": [
+    {
+      "pet": "lili",
+      "displayName": "栗栗",
+      "ok": true,
+      "sha256": "02fb5c0b613b8a9eaa9ea86ad1b4ecb3fc12681ff9408a7651426234cc47c8b7",
+      "atlas": [
+        1536,
+        2288
+      ],
+      "animations": 9,
+      "directions": 16,
+      "accepted_direction_warnings": [
+        "157.5"
+      ]
+    },
+    {
+      "pet": "taitai",
+      "displayName": "苔苔",
+      "ok": true,
+      "sha256": "a32677abadf6d7f2137f90ac9bbb211231f4b9abe7f76df99c23e8aa02898912",
+      "atlas": [
+        1536,
+        2288
+      ],
+      "animations": 9,
+      "directions": 16,
+      "accepted_direction_warnings": [
+        "067.5",
+        "247.5"
+      ]
+    },
+    {
+      "pet": "kaikai",
+      "displayName": "铠铠",
+      "ok": true,
+      "sha256": "e637783509fa4ff401fbab014d4ab32f30bb3070b9f3975f5978f1c202760d90",
+      "atlas": [
+        1536,
+        2288
+      ],
+      "animations": 9,
+      "directions": 16,
+      "accepted_direction_warnings": [
+        "112.5"
+      ]
+    },
+    {
+      "pet": "juqian",
+      "displayName": "橘钳",
+      "ok": true,
+      "sha256": "2678c0c956171596f1c47562146d80d5c731bce070b7478a1cdcd399162af099",
+      "atlas": [
+        1536,
+        2288
+      ],
+      "animations": 9,
+      "directions": 16,
+      "accepted_direction_warnings": [
+        "022.5",
+        "045",
+        "067.5",
+        "112.5",
+        "157.5",
+        "247.5"
+      ]
+    }
+  ]
+}
