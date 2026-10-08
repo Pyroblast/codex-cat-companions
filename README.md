@@ -11,23 +11,23 @@
 
 ## 在另一台 Mac 上快速安装
 
-需要：支持自定义 v2 宠物的 Codex 桌面客户端、Python 3.8+，以及访问此私有仓库的 GitHub 账号。
+需要：支持自定义 v2 宠物的 Codex 桌面客户端和 Python 3.8+。仓库公开，下载或克隆无需登录 GitHub。
 
-### 方式一：GitHub CLI
+### 方式一：Git 克隆
 
-已安装 `gh` 且已登录具有仓库访问权限的账号时：
+已安装 Git 时：
 
 ```bash
-gh repo clone Pyroblast/codex-cat-companions
+git clone https://github.com/Pyroblast/codex-cat-companions.git
 cd codex-cat-companions
 python3 install.py
 ```
 
-如果尚未登录，先运行 `gh auth login`。安装结束后，在 **Codex → 设置 → Pets → Refresh** 中刷新，再选择喜欢的猫。若没有立即出现，重新打开客户端后再检查。
+安装结束后，在 **Codex → 设置 → Pets → Refresh** 中刷新，再选择喜欢的猫。若没有立即出现，重新打开客户端后再检查。
 
 ### 方式二：下载 ZIP
 
-1. 登录 GitHub，打开本仓库，点击 **Code → Download ZIP** 并解压。
+1. [下载 ZIP](https://github.com/Pyroblast/codex-cat-companions/archive/refs/heads/main.zip) 并解压，也可以在仓库首页点击 **Code → Download ZIP**。无需登录。
 2. 在终端进入解压后的 `codex-cat-companions-main` 文件夹。
 3. 运行 `python3 install.py`，然后在 Codex 的 Pets 设置中刷新。
 
@@ -109,6 +109,6 @@ python3 -m unittest discover -s tests -v
 
 ## 来源
 
-这些是使用 AI 图像生成与确定性精灵图组装制作的冒险猫伙伴，不是游戏官方素材。此仓库用于个人跨电脑安装与维护，未附加开源许可证。
+这些是使用 AI 图像生成与确定性精灵图组装制作的冒险猫伙伴，不是游戏官方素材。此仓库公开分享，欢迎下载并安装使用；未附加开源许可证。
 
 参考：[OpenAI 官方宠物使用说明](https://learn.chatgpt.com/docs/pets)。本仓库安装的是桌面客户端 v2 宠物，不依赖网页版宠物上传入口。
